@@ -1,0 +1,20 @@
+DELETE http://localhost:3001/books/1
+
+###
+GET http://localhost:3001/books
+
+###
+POST http://localhost:3001/books
+Content-Type: application/json
+
+{
+  "title": "Harry Potter"
+}
+
+###
+PUT http://localhost:3001/books/1
+Content-Type: application/json
+
+{
+  "title": "Dark Potter"
+}
